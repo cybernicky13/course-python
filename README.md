@@ -1,2 +1,2 @@
 ﻿# course-python
-Soy Nicolas y me gustan los Capibaras 
+Este es Ultimate Python, un curso de Nicolás Schurmann
