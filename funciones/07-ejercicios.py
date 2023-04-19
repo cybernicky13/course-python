@@ -1,6 +1,13 @@
+"""CyberPalindromo by Nicolas Del Valle"""
+
+
 def es_palindormo(texto):
-    return texto
+    """Esta es una funcion para saber si un string es palindromo"""
+    string_reverso = texto[::-1]
+
+    is_palindromo = True if string_reverso == texto else False
+    return is_palindromo
 
 
-print("Abba", es_palindormo("Abba"))
-print("Hola Mundo", es_palindormo("Hola Mundo"))
+print("abba", es_palindormo("abba"))
+print("rock", es_palindormo("rock"))
