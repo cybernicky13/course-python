@@ -5,6 +5,7 @@ usuarios = [[4, "Chanchito"], [1, "Felipe"], [5, "Pulga"]]
 # nombres.append(usuarios[0])
 # print(nombres)
 
+# map
 # nombres = [usuario[0] for usuario in usuarios]
 
 # filtrar
