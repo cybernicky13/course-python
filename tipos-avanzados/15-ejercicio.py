@@ -42,8 +42,8 @@ print(sortDictionary(diccionario))
 
 
 def superiorTuple(listOfTuples):
-    tuple = max(listOfTuples, key=lambda x: x[1])
-    return tuple
+    tuples = max(listOfTuples, key=lambda x: x[1])
+    return tuples
 
 
 listado = [("a", 5), ("b", 2), ("c", 8), ("d", 1)]
