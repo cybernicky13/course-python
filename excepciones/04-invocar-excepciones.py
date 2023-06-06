@@ -1,4 +1,8 @@
 def division(n=0):
+    if n == 0:
+        raise ZeroDivisionError("No se puede dividir por 0", f"{n}")
     return 5 / n
-
-division()
+try:
+    division()
+except ZeroDivisionError as ex:
+    print(ex)
