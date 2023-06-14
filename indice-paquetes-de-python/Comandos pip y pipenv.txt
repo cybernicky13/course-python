@@ -1,0 +1,37 @@
+pip
+
+- pip install requests #Instalar paquete requests  
+- python.exe -m pip install --upgrade pip #Actualizar version de pip
+- pip --version #Verificar la version de pip
+- pip list #Revisar todos los paquetes instalados en pip
+- pip uninstall requests #Desinstalar paquete requests
+- pip install requests==2.18.1 #Instalar version especifica de paquete requests
+- pip install requests==2.18.* #Instalar version especifica de paquete requests con el ultimo parche
+- pip install requests==2.* #Instalar ultima version compatible con la version 2
+- pip install requests~=2.18.1 #Instalar la mejor version de paquete requests
+
+- pip install setuptools wheel twine #Herramientas para generar empaquetados y tambien subirlos a pypi
+
+python
+
+- python -m venv env #Crear ambiente virtual
+- env\scripts\activate.ps1 #Activar ambiente virtual en Windows
+- deactivate #Desactivar ambiente virtual
+
+pipenv
+
+- pip install pipenv #Instalar el paquete pipenv
+- pipenv install requests #Instalar el parquete requests y crear el ambiente virtual
+- pipenv --venv #Verificar en donde se encuentra la carpeta env
+- pipenv shell #Activar ambiente virtual
+- exit #Salir del ambiente virtual
+
+- pipenv graph #Mostrar todas las dependecias instaladas en nuestro proyecto en primer nivel
+- pipenv update --outdated #Listar todos los paquetes que pueden ser actualizado a una ultima version
+- pipenv update #Actualizar todos los paquetes desactualizados o especificar el paquete
+
+
+Publicando paquetes
+
+- python setup.py sdist bdist_wheel #Source distribution - Build distribution
+- twine upload dist/* #Subir la carpeta dist y absolutamente todo 
